@@ -1,0 +1,151 @@
+.Main-div {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-div {
+    justify-content: start;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.content-div {
+    width: 24%;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+
+.logo-div .logo {
+
+    width: 50%;
+}
+
+.icon-div {
+    gap: 15px;
+    display: flex;
+}
+
+.icon-div img {
+    width: 25px;
+}
+
+.heading {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.open-div {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+   
+    .Main-div {
+        width: 100%;
+        display: block;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-div {
+        justify-content: start;
+        width: 100%;
+        display: block;
+        gap: 15px;
+    }
+
+    .logo-div {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+    }
+    
+    
+    .logo-div .logo {
+    
+        width: 40%;
+    }
+
+    .content-div {
+        width: 90%;
+        display: block;
+        align-items: center;
+        gap: 10px;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .menu
+    {
+        display: none;
+    }
+
+    .icon-div 
+    {
+        display: none;
+    }
+
+    .menu-heading
+    {
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .heading {
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .heading {
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .menu p {
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .icon-div {
+        padding-top: 10px;
+        /* display: none; */
+    }
+
+    .icon-div img {
+       margin: 5px;
+    }
+
+    .open-div  
+    {
+        display: block;
+    }
+
+    .open-div img 
+    {
+        width: 12px;
+        margin-top: 10px;
+    }
+
+}
+
